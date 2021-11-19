@@ -17,7 +17,7 @@ workflows:
       events:
         - push
       branch_patterns:
-        - pattern: dev-flavor
+        - pattern: master
           include: true
           source: true
     scripts:
